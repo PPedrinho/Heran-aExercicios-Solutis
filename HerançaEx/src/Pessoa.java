@@ -48,4 +48,8 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
+    //metodos
+    public void imprime(){
+        
+    }
 }

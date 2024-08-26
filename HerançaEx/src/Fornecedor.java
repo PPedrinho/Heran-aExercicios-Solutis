@@ -31,6 +31,7 @@ public class Fornecedor extends Pessoa {
         return valorCredito - valorDebito;
     }
 
+    @Override
     public void imprime(){
         System.out.println("Nome: " + getNome());
         System.out.println("EnderecÇo: " + getEndereco());

@@ -34,6 +34,7 @@ public class Operario extends Empregado {
         return (super.calcSalario() + (valorProducao * (comissao/100)));
     }
 
+    @Override
     public void imprime(){
         System.out.println("Nome: " + getNome());
         System.out.println("Endereço: " + getEndereco());
@@ -42,7 +43,7 @@ public class Operario extends Empregado {
         System.out.println("Salario Base: " + getSalarioBase());
         System.out.println("Imposto (%): " + getImposto());
         System.out.println("Valor Produção: " + getValorProducao());
-        System.out.println("Comissão: " + getComissao());
+        System.out.println("Comissão (%): " + getComissao());
         System.out.println("Salario operário: " + calcSalarioOp());
     }
 }

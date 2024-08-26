@@ -24,6 +24,7 @@ public class Administrador extends Empregado {
         return (super.calcSalario() + ajudaCusto);
     }
 
+    @Override
     public void imprime(){
         System.out.println("Nome: " + getNome());
         System.out.println("Endereço: " + getEndereco());

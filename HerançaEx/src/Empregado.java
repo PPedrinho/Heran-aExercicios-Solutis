@@ -44,6 +44,7 @@ public class Empregado extends Pessoa {
         return (salarioBase * (1 - (imposto/100)));
     }
 
+    @Override
     public void imprime(){
         System.out.println("Nome: " + getNome());
         System.out.println("Enderecço: " + getEndereco());
